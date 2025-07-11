@@ -117,7 +117,7 @@
   font-size: 38px;
   line-height: 1.2;
   text-align: center;
-  color: #333;
+  color: #252432;
   font-weight: bold;
   margin: 0;
 }
@@ -127,7 +127,8 @@
   justify-content: center;
   align-items: flex-start;
   width: 856px;
-  gap: 40px;
+  min-height: 121px;
+  padding: 0px 0px;
 }
 
 .user-stat-item {
@@ -140,8 +141,8 @@
   max-width: 280px;
 }
 .stat-number {
-  font-family: "Raleway", sans-serif;
-  font-size: 3em;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
   font-weight: 700;
   color: #4e47ff;
   margin-bottom: 5px;
