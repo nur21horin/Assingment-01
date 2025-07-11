@@ -176,11 +176,96 @@
   border-radius: 0;
 }
 /*User Feedback*/
-.User-feedback {
+.user-feedback-section {
   width: 100%;
   max-width: 1140px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 312px;
+}
+.section-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  text-align: center;
+  color: #252432;
+  margin-bottom: 60px;
+}
+.feedback-cards-container {
+  display: flex;
+
+  gap: 24px;
+}
+.feedback-card {
+  display: flex;
   margin: 0 auto;
-  min-height: 342px;
+  justify-content: space-between;
+  min-width: 280px;
+  max-width: 350px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  min-height: 280px;
+}
+.start-rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 15px;
+}
+.star-rating img {
+  width: 16px;
+  height: 16px;
+}
+.feedback-content {
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+.feedback-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+.feedback-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #8987a1;
+  margin: 0;
+}
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+.reviewer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.reviewer-details {
+  display: flex;
+  flex-direction: column;
+}
+.reviewer-name {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+.review-date {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8em;
+  color: #8987a1;
+  margin: 0;
 }
 .ourUser {
   width: 1140px;
@@ -199,8 +284,45 @@
   border-radius: 14px;
   background-color: #ffffff;
 }
-.reviewr {
+/*Focus section*/
+.focus-section {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 696px;
+  padding: 150px 71px;
+  background-color: #ffffff;
+  gap: 20px;
+}
+.focus-section-header {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #000000;
+  opacity: 100%;
+  margin-bottom: 10px;
+}
+.focus-section-description {
+  text-align: left;
+  color: rgba(0, 0, 0, 0, 0, 0, 0.5);
+  opacity: 0.5;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.focus-img-section {
+  width: 100%;
+  max-width: 840px;
+  height: 364.77px;
+  border-radius: 48px;
+  overflow: hidden;
 }
 /*touch style*/
 .touch {
@@ -328,17 +450,7 @@
   opacity: 100%;
   border-radius: 0px;
 }
-.footer_logo {
-  display: block;
-  margin: 120px 0px;
-  width: auto;
-  height: auto;
-  opacity: 100%;
-  border-radius: 0;
-  font-family: "Inter", sans-serif;
-  font-weight: 900;
-  color: #4e47ff;
-}
+
 .footer_site h4 {
   display: block;
   margin: 0px 120px;
@@ -409,4 +521,65 @@
   width: 100%;
   height: auto;
   display: block;
+}
+
+.site-footer {
+  width: 100%;
+  min-height: 428px;
+  background-color: #ffffff;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.footer-brand{
+  margin: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer_content-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px;
+}
+.footer_logo {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  color: #4e47ff;
+  width: 100%;
+  line-height: normal;
+  text-align: center;
+}
+.footer-links-group {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.footer-links-group a {
+  color: #8987a1;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.footer-links-group a:hover {
+  color: #4e47ff;
+}
+.footer-description {
+  width: 531px;
+  margin: 0 auto;
+  text-align: center;
+  color: #8987a1;
+  opacity: 1;
 }
