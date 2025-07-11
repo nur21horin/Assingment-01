@@ -10,14 +10,15 @@
     <!--It's a first page-->
     <main class="main">
       <nav>
-        <div class="nav">
+        <div class="main_nav">
           <h2>Logo</h2>
-          <button class="btn-class">Sign Up</button>
+          <button class="focus-btn">Sign Up</button>
         </div>
       </nav>
       <section class="banner">
-        <h1>Cool Dark UI Template for</h1>
-        <h1>Webflow Agencies!</h1>
+        <h1 class="banner-heading">
+          Cool Dark UI Template for Webflow Agencies!
+        </h1>
         <button class="focus-btn">Stay Focused</button>
       </section>
     </main>
@@ -25,8 +26,9 @@
     <section class="action">
       <div class="Left-section">
         <h1>See It in Action</h1>
-        <h4>Explore the live preview and imagine your
-        brand in this bold new look.</h4>
+        <h4>
+          Explore the live preview and imagine your brand in this bold new look.
+        </h4>
         <button class="focus-btn">Launch Live Preview</button>
       </div>
       <div class="right_section">
@@ -35,45 +37,129 @@
     </section>
     <!--End of Action-->
     <!--Start of User Section-->
-    <section class="Users">
-      <div>
-        <h1>Joined Thousands of Productive Users</h1>
+   
+    <section class="Users-section">
+      
         <div>
+          <h1 class="user-headline">Joined Thousands of Productive Users</h1>
+        </div>
+        <div class="user-stats-container">
+          <div class="user-stat-item">
+            <h3 class="stat-number">50k</h3>
+            <p class="stat-description">Active Users</p>
+          </div>
+          <div class="user-stat-item">
+            <h3 class="stat-number">2M+</h3>
+            <p class="stat-description">Focus Sessions</p>
+          </div>
+          <div class="user-stat-item">
+            <h3 class="stat-number">95%</h3>
+            <p class="stat-description">Satisfaction Rate</p>
+          </div>
+        </div>
+      
+    </section>
+    <!--End of Productive-->
+    <!--USers feedback-->
+    <section class="User-feedback">
+     <h3 class="ourUser">What our users say</h3>
+      <div>
+        <div class="UserSFeedBack">
           <div>
-            <h1>50k</h1>
-            <h4>Active Users</h4>
+           <div>
+             <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+           </div>
+           <div>
+            <h3>Loved by Designers</h3>
+            <p>This template instantly leveled up our presence."-Studio Vertex</p>
+            
+           </div>
+           <div>
+            <div>
+            <h1>Rivewer name</h1>
+            <h1>Date</h1>
+           </div>
+           <img src="./Assets/avatar.png" alt="">
+           </div>
+          </div>
+         <div>
+           <div>
+             <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+           </div>
+           <div>
+            <h3>Loved by Designers</h3>
+            <p>This template instantly leveled up our presence."-Studio Vertex</p>
+            
+           </div>
+           <div class="reviewr">
+            <div>
+            <h1>Rivewer name</h1>
+            <h1>Date</h1>
+           </div>
+           <img src="./Assets/avatar.png" alt="">
+           </div>
           </div>
           <div>
-            <h1>2M+</h1>
-            <h4>Focus Sessions</h4>
-          </div>
-          <div>
-            <h1>95%</h1>
-            <h4>Satisfaction Rate</h4>
+           <div>
+             <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+            <img src="./Assets/icon-star.png" alt="">
+           </div>
+           <div>
+            <h3>Loved by Designers</h3>
+            <p>This template instantly leveled up our presence."-Studio Vertex</p>
+            
+           </div>
+           <div>
+            <div>
+            <h1>Rivewer name</h1>
+            <h1>Date</h1>
+           </div>
+           <img src="./Assets/avatar.png" alt="">
+           </div>
           </div>
         </div>
       </div>
-    </section>
-    <!--End of Productive-->
 
+    </section>
+    <!--end Users feedback-->
     <section class="touch">
       <div class="left">
         <h1>Let's Get in Touch</h1>
       </div>
       <div class="right">
-        <input type="text" name="" id="" placeholder="example@email.com" />
-        <input type="text" name="" id="" placeholder="full name" />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="write your message"
-        >
-        <input type="submit" value="submit"/>
-
-       </textarea
-        >
+        <div class="right-section">
+          <h3>Email</h3>
+          <input class="right_section_input" type="text" name="" id="" placeholder="example@email.com" />
+        </div>
+        <div class="right_section">
+          <h3>Name</h3>
+          <input class="right_section_input" type="text" name="" id="" placeholder="full name" />
+        </div>
+        <div class="right-section_message">
+          <h3>Message</h3>
+           <textarea 
+          class="right-section_message_input"
+            name=""
+            id=""
+            cols="10"
+            rows="5"
+            placeholder="write your message..."
+          ></textarea>
+        </div>
+       <div class="btn">
+          <button class="focus-btn " style="width: 100%;"><span class="btn-get-touch">Get in Touch</span></button>
+        </div>
       </div>
     </section>
     <footer class="foot">
