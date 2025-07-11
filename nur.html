@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 🌌 Hero Section */
+      .main {
+        width: 100%;
+        max-width: 1440px;
+        height: 698px;
+        margin: 0 auto;
+        padding: 0 40px;
+        position: relative;
+        overflow: hidden;
+
+        background-image: url("../Assets/Hero-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      /* 📌 Navigation Bar */
+      .main_nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        padding: 50px 0;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        font-family: "Raleway", sans-serif;
+        color: #4e47ff;
+        opacity: 1;
+        z-index: 10;
+      }
+
+      /* 🔘 Buttons */
+      .focus-btn {
+        font-family: "Raleway", sans-serif;
+        padding: 12px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: #4e47ff;
+        color: white;
+        transition: background-color 0.5s ease-in-out;
+      }
+
+      .focus-btn:hover {
+        background-color: burlywood;
+      }
+
+      /* 🪐 Banner Section */
+      .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      /* 📣 Banner Content Wrapper */
+      .banner-class {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 37px;
+        padding: 20px;
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+      }
+
+      /* 📝 Heading Styles */
+      .banner-heading {
+        font-family: "Raleway", sans-serif;
+        font-size: 3.5em;
+        line-height: 1.2;
+        margin-bottom: 0;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <nav class="main_nav">
+        <h2>Logo</h2>
+        <button class="focus-btn">Sign Up</button>
+      </nav>
+
+      <section class="banner">
+        <div class="banner-class">
+          <h1 class="banner-heading">
+            Cool Dark UI Template for Webflow Agencies!
+          </h1>
+          <button class="focus-btn">Stay Focused</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
